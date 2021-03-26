@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    min-height: 100vh;
+    background-image: url("../img/51D0f+jPCAL.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-empty{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+    display: flex;
+    min-height: 100vh;
+}
+.mask{
+    background-image: url("../img/pexels-dominika-roseclay-1036808.jpg");
+    min-height: 98.75vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.top-left{
+    position: absolute;
+    left: 0;
+    width: 50%;
+    display: inline-block;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.603), rgba(255, 255, 0, 0.404));
+}
+.top-right{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    display: inline-block;
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, rgba(255, 0, 0, 0.603), rgba(255, 255, 0, 0.404));
+}
+.mask-2{
+    width: 100%;
+    height: 800px;
+    background-image: url("../img/S__4063234.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.simple{
+    height: 100%;
+    width: auto;
+    background-image: linear-gradient( 90deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1),rgba(0,0,0,0.5));
+}
