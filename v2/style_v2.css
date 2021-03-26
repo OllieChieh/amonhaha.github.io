@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    min-height: 100vh;
+    background-image: url("../img/51D0f+jPCAL.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-empty{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+.mask-2{
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    min-height: 100vh;
+    background-image: url("../img/S__4063234.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.simple{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( 90deg, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2),rgba(0,0,0,0.6));
+}
