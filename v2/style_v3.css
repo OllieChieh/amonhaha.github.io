@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.nav{
+    color: white;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    right: 20px;
+}
+.nav ul li{
+    display: inline-block;
+    /* border: 1px solid white;   */
+    padding: 10px;
+    margin: 10px;
+    font-size: 26px;
+}
+.nav a{
+    color: white;
+    text-decoration:none;
+}
+.nav a:hover{
+    font-weight: 900;
+    color: #FED700;
+    /* text-shadow: 0 0 0.2em rgb(238, 187, 45); */
+}
+
+.banner{
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    min-height: 100vh;
+    background-image: url("../img/51D0f+jPCAL.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-empty{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+    display: flex;
+    min-height: 100vh;
+}
